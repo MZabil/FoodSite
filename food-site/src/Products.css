@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("Black.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+hr{
+  border: none;
+  height: 12px;
+  background-color: white;
+}
+
+.products-heading{
+  text-align: center;
+  color: white;
+  font-family: 'Dancing Script';
+  font-weight: bold;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin: 0 auto;
+  padding: 10px 10px;
+
+  font-family: cursive;
+  text-align: center;
+  color: rgb(200, 200, 200);
+}
+
+.products {
+  background-color: rgb(10, 10, 10);
+  width: 35vw;
+  padding: 10px;
+  padding-bottom: 0;
+  border-radius: 10px;
+}
+
+.gallery h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  font-family: "Caveat";
+}
+
+.gallery p {
+  font-size: 18px;
+}
+
+.price {
+  color: greenyellow !important;
+}
+
+.gallery img {
+  width: 30vw;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+
+  transition: all 1.5s ease-in-out;
+}
+
+.gallery img:hover {
+  transform: scale(1.1);
+}
+
+.gallery::after {
+  content: "";
+  width: 35vw;
+}
+
+.Added {
+  padding-top: 5px;
+}
+
+.products-side h4{
+  font-family: cursive;
+  margin-top: 20px;
+}
+
+.OrderButton{
+  margin-top: 40px;
+}
+
+.contact-side{
+  font-family: cursive;
+  text-align: center;
+  color: white;
+}
+
+.contact-side h1{
+  font-family: 'Dancing Script';
+}
+
+.reviewBox{
+  display: inline-block;
+  margin: 20px;
+  border: 2px solid rgb(63, 63, 63);
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.contact-side p{
+  font-size: 20px;
+}
+
+.contact-side i{
+  font-size: 50px;
+  margin: 10px;
+}

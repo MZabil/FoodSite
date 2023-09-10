@@ -1,0 +1,63 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+  font-family: Helvetica, sans-serif;
+}
+.fa-drumstick-bite {
+  text-decoration: underline overline;
+}
+.end {
+  padding-right: 20px !important;
+}
+.imgDiv {
+  height: 92vh;
+  width: 100%;
+  text-align: center;
+  color: rgb(221, 219, 219);
+  position: relative;
+}
+.imgDiv img {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.imgText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  font-family: "Caveat";
+}
+.imgText h1 {
+  font-size: 10vw;
+  font-family: 'Dancing Script';
+}
+.imgText p {
+  font-size: 3vw;
+  padding-top: 30px;
+}
+
+@media only screen and (max-width: 991px) {
+  .imgText h1 {
+    font-size: 11vw;
+  }
+  .imgText p {
+    font-size: 3vw;
+    padding-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .imgText h1 {
+    font-size: 13vw;
+  }
+  .imgText p {
+    font-size: 4vw;
+    padding-top: 10px;
+  }
+}
