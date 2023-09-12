@@ -1,7 +1,6 @@
 //Send food products to databsase
 
 const mongoose = require("mongoose");
-const dotenv = require("dotenv").config();
 const { Schema } = mongoose;
 
 const productSchema = new Schema({
