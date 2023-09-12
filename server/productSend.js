@@ -29,7 +29,7 @@ async function connectDb() {
 }
 
 // //Send products to mongoDB
-// async function productSend() {
+async function productSend() {
 
 //   //Array of breakfast foods to add to database
 //   // const BreakfastArray = [
@@ -128,7 +128,7 @@ async function connectDb() {
 //         console.error("Error saving data:", error);
 //       });
 //   }
-// }
+}
 
 module.exports = {
   connectDb,
