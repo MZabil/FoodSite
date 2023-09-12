@@ -9,7 +9,7 @@ function Products() {
 
   //Fetching breakfast items
   useEffect(() => {
-    fetch("http://localhost:4000/api/breakfast")
+    fetch("https://food-site-backend.vercel.app/api/breakfast")
       .then((response) => response.json())
       .then((data) => setBreakfast(data))
       .catch((error) => console.error("Error fetching data:", error));
@@ -17,7 +17,7 @@ function Products() {
 
   //Fetching lunch items
   useEffect(() => {
-    fetch("http://localhost:4000/api/lunch")
+    fetch("https://food-site-backend.vercel.app/api/lunch")
       .then((response) => response.json())
       .then((data) => setLunch(data))
       .catch((error) => console.error("Error fetching data:", error));
