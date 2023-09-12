@@ -20,6 +20,10 @@ connectDb();
 //Send product data to mongodb
 productSend();
 
+app.get('/', (req,res) => {
+  res.json("hi");
+});
+
 //API endpoint to fetch breakfast data
 app.get('/api/breakfast', async (req, res) => {
   try {
