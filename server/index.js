@@ -7,7 +7,6 @@ const app = express();
 const path=require("path");
 const {connectDb, productSend, lunch, breakfast}= require("./productSend");
 const { connect } = require("http2");
-const dotenv = require("dotenv").config();
 const staticPath= path.join(__dirname, 'build');
 const mongoose= require("mongoose");
 
